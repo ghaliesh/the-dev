@@ -35,6 +35,7 @@ function isValid(req, res, next) {
     next();
   } else {
     res.status(400).send(error.details[0].message);
+    console.log(error.details);
   }
 }
 

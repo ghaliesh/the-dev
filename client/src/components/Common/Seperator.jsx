@@ -5,6 +5,10 @@ import React from 'react';
 const HR = styled.hr`
   display: inline-block;
   width: 20%;
+
+  @media (max-width: 815px) {
+    display: none;
+  }
 `;
 
 const Title = styled.h1`

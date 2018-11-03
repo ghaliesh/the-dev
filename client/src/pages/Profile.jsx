@@ -15,7 +15,7 @@ class Profile extends Component {
   }
   render() {
     return (
-      <Div style={displayGrid('1fr', '40px')} padding="200px 100px">
+      <Div style={displayGrid('1fr', '40px')} padding="100px 0px">
         <React.Fragment>
           <Introduction intro={assignProfile(this.props.profile)} />
           <Projects handle={this.props.profile.githubHandle} />

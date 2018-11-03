@@ -56,6 +56,7 @@ router.get('/getProfile', isAuthenticated, async (req, res) => {
 router.post('/add', isAuthenticated, isValid, async (req, res) => {
   const userId = req.user._id;
   const result = await AddProfile(req.body, userId);
+  console.log(result);
   res.send(result);
 });
 

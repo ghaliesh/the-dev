@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Spin, Text } from '../Animation/Spinner';
+import 'react-toastify/dist/ReactToastify.css';
 import React from 'react';
 
 const Container = styled.div`

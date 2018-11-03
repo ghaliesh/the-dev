@@ -3,10 +3,6 @@ const router = express.Router();
 const { isValid, isAuthenticated } = require('../middlewares/user-middlewares');
 const { addUser, loginUser, getUser } = require('../models/user.model');
 
-router.get('/', async (req, res) => {
-  res.status(200).send({ name: 'fuck' });
-});
-
 router.post('/register', isValid, async (req, res) => {
   const user = await addUser(req.body);
   user.token = user.genreateToken();

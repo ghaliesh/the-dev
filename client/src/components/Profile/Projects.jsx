@@ -20,7 +20,11 @@ export default class Projects extends Component {
           <Icon className="fas fa-project-diagram" />
           Projects
         </H>
-        <Table experience={this.state.repos} />
+        {this.state.repos.length > 0 ? (
+          <Table experience={this.state.repos} />
+        ) : (
+          <H color="dark">Didn't found any repos</H>
+        )}
       </Div>
     );
   }

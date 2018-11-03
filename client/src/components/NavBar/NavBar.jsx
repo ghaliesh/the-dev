@@ -7,6 +7,7 @@ import { setTheme } from '../../redux/reducers/theme/theme.action';
 import Div from './../Common/Div';
 import Span from './../Common/Span';
 import Icon from './../Common/Icon';
+import { toast, ToastContainer } from 'react-toastify';
 
 class NavBar extends Component {
   state = {
@@ -81,11 +82,23 @@ class NavBar extends Component {
             )}
           </Div>
         </Div>
+        <ToastContainer
+          position="bottom-left"
+          autoClose={3000}
+          hideProgressBar={true}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnVisibilityChange
+          draggable
+          pauseOnHover
+        />
       </Div>
     );
   }
 
   logOut = () => {
+    toast.info('Logout successfully');
     this.props.logOutUser();
   };
 
