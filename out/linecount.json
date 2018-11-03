@@ -1,0 +1,1379 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "c:\\Users\\Ghazwan Al-iesh\\VSC\\Side Projects\\nodejs\\the_dev",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2018-10-06 03:21:39",
+            "filesum": 14,
+            "codesum": 1660,
+            "commentsum": 0,
+            "blanksum": 60,
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\custom-environment-variables.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\default.json"
+                },
+                {
+                    "blank": 4,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "middlewares\\articles.middleware.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "middlewares\\profile-middleware.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 88,
+                    "comment": 0,
+                    "filename": "middlewares\\user-middlewares.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "models\\articles.model.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "models\\profile.model.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "models\\user.model.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1170,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "routes\\articles.route.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "routes\\profile.route.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "routes\\user.route.js"
+                }
+            ]
+        },
+        {
+            "version": "0.1.7",
+            "counttime": "2018-10-08 09:15:55",
+            "filesum": 52,
+            "codesum": 18975,
+            "commentsum": 544,
+            "blanksum": 397,
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 1,
+                    "filename": "client\\.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 15370,
+                    "comment": 0,
+                    "filename": "client\\package-lock.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "client\\package.json"
+                },
+                {
+                    "filename": "client\\public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 19,
+                    "comment": 22,
+                    "filename": "client\\public\\index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "client\\public\\manifest.json"
+                },
+                {
+                    "blank": 222,
+                    "code": 510,
+                    "comment": 490,
+                    "filename": "client\\README.md"
+                },
+                {
+                    "blank": 18,
+                    "code": 144,
+                    "comment": 0,
+                    "filename": "client\\src\\App.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "client\\src\\App.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\App.test.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Button.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\ErrorMessage.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\H.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "client\\src\\components\\Common\\Input.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\InputGroup.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Label.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\TextArea.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Footer\\Footer.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\NavBar\\NavBar.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "client\\src\\index.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "client\\src\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\logo.svg"
+                },
+                {
+                    "filename": "client\\src\\pages\\landing-bg.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\LandingPage.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Login.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Profile.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\ProfileForm.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Register.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\auth\\auth.action.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\auth\\auth.reducer.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\profile\\profile.action.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\profile\\profile.reducer.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\store.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\types.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 83,
+                    "comment": 30,
+                    "filename": "client\\src\\serviceWorker.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\error.handler.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\setAuthToken.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\custom-environment-variables.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\default.json"
+                },
+                {
+                    "blank": 4,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "middlewares\\articles.middleware.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "middlewares\\profile-middleware.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "middlewares\\user-middlewares.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "models\\articles.model.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "models\\profile.model.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "models\\user.model.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1626,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "routes\\articles.route.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "routes\\profile.route.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "routes\\user.route.js"
+                }
+            ]
+        },
+        {
+            "version": "0.1.7",
+            "counttime": "2018-10-11 05:58:39",
+            "filesum": 73,
+            "codesum": 19990,
+            "commentsum": 547,
+            "blanksum": 476,
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 1,
+                    "filename": "client\\.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 15375,
+                    "comment": 0,
+                    "filename": "client\\package-lock.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "client\\package.json"
+                },
+                {
+                    "filename": "client\\public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 19,
+                    "comment": 22,
+                    "filename": "client\\public\\index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "client\\public\\manifest.json"
+                },
+                {
+                    "blank": 222,
+                    "code": 510,
+                    "comment": 490,
+                    "filename": "client\\README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "client\\src\\.eslintrc.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 152,
+                    "comment": 0,
+                    "filename": "client\\src\\App.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "client\\src\\App.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\App.test.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Anchor.jsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 85,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Button.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Div.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\ErrorMessage.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\H.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Icon.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 3,
+                    "filename": "client\\src\\components\\Common\\Image.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Input.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\InputGroup.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Item.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Label.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\List.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Paragraph.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Seperator.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Table.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\TextArea.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\FAQ\\Answer.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\FAQ\\Question.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Footer\\Footer.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\NavBar\\NavBar.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Education.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Experiences.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Intro.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Projects.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Social.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\index.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "client\\src\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\logo.svg"
+                },
+                {
+                    "blank": 2,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\About.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\LandingPage.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 95,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Login.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Profile.jsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 252,
+                    "comment": 1,
+                    "filename": "client\\src\\pages\\ProfileForm.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 114,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Register.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\auth\\auth.action.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\auth\\auth.reducer.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\profile\\profile.action.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\profile\\profile.reducer.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\store.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\types.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 83,
+                    "comment": 30,
+                    "filename": "client\\src\\serviceWorker.js"
+                },
+                {
+                    "filename": "client\\src\\static\\img\\landing-bg.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\experiences.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\Faqhelper.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\localstorage.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\progmaticStyling.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\validateHelper.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\custom-environment-variables.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\default.json"
+                },
+                {
+                    "blank": 4,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "middlewares\\articles.middleware.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "middlewares\\profile-middleware.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "middlewares\\user-middlewares.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "models\\articles.model.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "models\\profile.model.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "models\\user.model.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1626,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "routes\\articles.route.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "routes\\profile.route.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "routes\\user.route.js"
+                }
+            ]
+        },
+        {
+            "version": "0.1.7",
+            "counttime": "2018-10-12 07:24:14",
+            "filesum": 82,
+            "codesum": 20361,
+            "commentsum": 546,
+            "blanksum": 498,
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 1,
+                    "filename": "client\\.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 15381,
+                    "comment": 0,
+                    "filename": "client\\package-lock.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "client\\package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "client\\package.json.1385886177"
+                },
+                {
+                    "filename": "client\\public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 23,
+                    "comment": 22,
+                    "filename": "client\\public\\index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "client\\public\\manifest.json"
+                },
+                {
+                    "blank": 222,
+                    "code": 510,
+                    "comment": 490,
+                    "filename": "client\\README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "client\\src\\.eslintrc.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 152,
+                    "comment": 0,
+                    "filename": "client\\src\\App.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "client\\src\\App.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\App.test.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Anchor.jsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 85,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Button.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\CheckBox.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Div.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\ErrorMessage.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\H.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Icon.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Image.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Input.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\InputGroup.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Item.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Label.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\List.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Paragraph.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Seperator.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Span.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 71,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Table.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\TextArea.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\FAQ\\Answer.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\FAQ\\Question.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Footer\\Footer.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\NavBar\\NavBar.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Education.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Experiences.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 1,
+                    "filename": "client\\src\\components\\Profile\\Github.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Intro.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Introduction.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 26,
+                    "comment": 1,
+                    "filename": "client\\src\\components\\Profile\\Projects.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Social.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\ProfileList\\ProfileItem.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\index.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "client\\src\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\logo.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\About.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\LandingPage.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 95,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Login.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Profile.jsx"
+                },
+                {
+                    "blank": 13,
+                    "code": 286,
+                    "comment": 1,
+                    "filename": "client\\src\\pages\\ProfileForm.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\ProfileList.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 115,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Register.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\auth\\auth.action.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\auth\\auth.reducer.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\profile\\profile.action.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\profile\\profile.reducer.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\store.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\types.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 83,
+                    "comment": 30,
+                    "filename": "client\\src\\serviceWorker.js"
+                },
+                {
+                    "filename": "client\\src\\static\\img\\landing-bg.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\experiences.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\Faqhelper.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\formater.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\localstorage.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\progmaticStyling.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\setterHelper.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\validateHelper.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\custom-environment-variables.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\default.json"
+                },
+                {
+                    "blank": 4,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "middlewares\\articles.middleware.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "middlewares\\profile-middleware.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "middlewares\\user-middlewares.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "models\\articles.model.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "models\\profile.model.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "models\\user.model.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1626,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "routes\\articles.route.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "routes\\profile.route.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "routes\\user.route.js"
+                }
+            ]
+        }
+    ]
+}
