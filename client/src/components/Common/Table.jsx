@@ -18,7 +18,10 @@ const TableRow = styled.tr`
   border-collapse: collapse;
 
   &:nth-child(even) {
-    background: #4a5972;
+    background: ${props =>
+      props.theme[props.background]
+        ? props.theme[props.background]
+        : props.background};
     color: #fff;
   }
 `;
@@ -48,7 +51,7 @@ const Table = props => {
       </thead>
       <tbody>
         {props.experience.map(e => (
-          <TableRow key={e.id}>
+          <TableRow background="primary" key={e.id}>
             <TableData>{e.name}</TableData>
             <TableData>
               {e.language ? e.language : <Span color="dark">None</Span>}

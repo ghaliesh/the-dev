@@ -27,6 +27,7 @@ class NavBar extends Component {
               <Span className="change-theme" clickable onClick={this.showList}>
                 <Icon className="fas fa-palette" /> theme
               </Span>
+
               <ul style={toggleList(this.state.shown)}>
                 <li onClick={() => this.changeTheme(0)}>
                   <Icon className="fa fa-circle" color="#560909" />{' '}
@@ -60,12 +61,7 @@ class NavBar extends Component {
           <Div className="nav-links">
             <li>
               <Link to="/">Home</Link>
-            </li>{' '}
-            {user.isAuthenticated && (
-              <li>
-                <Link to="/profile">Profile </Link>
-              </li>
-            )}
+            </li>
             <li>
               <Link to="/about">About us </Link>
             </li>
@@ -83,7 +79,7 @@ class NavBar extends Component {
           </Div>
         </Div>
         <ToastContainer
-          position="bottom-left"
+          position="top-right"
           autoClose={3000}
           hideProgressBar={true}
           newestOnTop={false}

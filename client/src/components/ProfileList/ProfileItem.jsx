@@ -11,34 +11,40 @@ const ProfileItem = props => {
   return (
     <Div style={profileItemStyle}>
       <Div style={displayGrid('0.2fr 2fr 0.2fr')}>
-        <Image circle src="https://via.placeholder.com/100x100" />
+        <Image
+          circle
+          src={
+            props.profile.userInfo
+              ? props.profile.userInfo.avatar
+              : 'https://via.placeholder.com/100x100'
+          }
+        />
         <Div margin="5px 10px">
-          <H color="dark">Ghazwan Aliesh</H>
-          <Paragraph opacity="0.6">@{props.profile.username}</Paragraph>
+          <H color="dark">
+            {props.profile.userInfo ? props.profile.userInfo.name : 'John doe'}
+          </H>
+          <Paragraph opacity="0.6">@{props.profile.profile.username}</Paragraph>
           <Paragraph color="green">
             <Icon className="fa fa-check" /> Available for work
           </Paragraph>
         </Div>
-        <Paragraph color="brown">
-          <Icon className="fa fa-compass" />
-          {props.profile.location}
-        </Paragraph>
+        <Paragraph color="brown">{props.profile.profile.location}</Paragraph>
       </Div>
-      <Div color="dark">{props.profile.bio}</Div>
+      <Div color="dark">{props.profile.profile.bio}</Div>
       <Div>
-        {props.profile.skills.map(s => (
+        {props.profile.profile.skills.map(s => (
           <Div
             background="#ccc"
             display="inline-block"
             padding="10px"
             margin="10px 10px"
-            key={props.profile.skills.indexOf(s)}
+            key={props.profile.profile.skills.indexOf(s)}
           >
             {s}
           </Div>
         ))}
       </Div>
-      <Link to={`profile/${props.profile.username}`}>
+      <Link to={`profile/${props.profile.profile.username}`}>
         <Paragraph color="danger">See full details</Paragraph>
       </Link>
     </Div>

@@ -8,6 +8,7 @@ import H from '../components/Common/H';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
+import { toast, ToastContainer } from 'react-toastify';
 
 class Register extends Component {
   state = {
@@ -23,10 +24,22 @@ class Register extends Component {
   };
   render() {
     if (this.state.redirect) {
+      toast.success(`Welcome ${this.state.name}`);
       return <Redirect to="/create-profile" />;
     }
     return (
       <Div padding="100px 100px">
+        <ToastContainer
+          position="bottom-left"
+          autoClose={3000}
+          hideProgressBar={true}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnVisibilityChange
+          draggable
+          pauseOnHover
+        />
         <H color="dark" size="20px">
           Create new account
         </H>

@@ -16,7 +16,11 @@ const getCurrentProfile = () => async dispatch => {
 const userProfile = handle => async dispatch => {
   if (handle) {
     const res = await axios.get('/api/profiles/getByhandle/q?handle=' + handle);
-    dispatch({ type: GET_PROFILE, payload: res.data });
+    console.log({ ...res.data.profile, ...res.data.user });
+    dispatch({
+      type: GET_PROFILE,
+      payload: { ...res.data.profile, ...res.data.user }
+    });
   } else {
     await getCurrentProfile();
   }
@@ -24,7 +28,11 @@ const userProfile = handle => async dispatch => {
 
 const getProfiles = () => async dispatch => {
   const res = await axios.get('/api/profiles');
-  dispatch({ type: GET_PROFILES, payload: res.data });
+  console.log(res.data);
+  dispatch({
+    type: GET_PROFILES,
+    payload: res.data
+  });
 };
 
 const getProfilesBySkills = (data, mode) => async dispatch => {
@@ -32,7 +40,6 @@ const getProfilesBySkills = (data, mode) => async dispatch => {
   const res = await axios.get(
     `/api/profiles/getBySkill/q?skill=${skillsParams}&mode=${mode}`
   );
-  console.log(res.data);
   dispatch({ type: GET_PROFILES_BY_SKILLS, payload: res.data });
 };
 
@@ -41,7 +48,10 @@ const createProfile = profile => async dispatch => {
   const res = await axios.post('/api/profiles/add', profile, {
     headers: header
   });
-  dispatch({ type: CREATE_PROFILE, payload: res.data });
+  dispatch({
+    type: CREATE_PROFILE,
+    payload: { ...res.data.profile, ...res.data.user }
+  });
 };
 
 export default getCurrentProfile;

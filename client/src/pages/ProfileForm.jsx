@@ -9,7 +9,6 @@ import { createProfile } from '../redux/reducers/profile/profile.action';
 import { Link } from 'react-router-dom';
 import Redirect from 'react-router-dom/Redirect';
 import Check from './../components/Common/CheckBox';
-import { toast, ToastContainer } from 'react-toastify';
 
 class ProfileForm extends Component {
   state = {
@@ -38,23 +37,11 @@ class ProfileForm extends Component {
   };
 
   render() {
-    toast.success('Registered successfully');
     if (this.state.redirect) {
       return <Redirect to="/profile" />;
     }
     return (
       <Div padding="100px 100px">
-        <ToastContainer
-          position="bottom-left"
-          autoClose={3000}
-          hideProgressBar={true}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnVisibilityChange
-          draggable
-          pauseOnHover
-        />
         <form onSubmit={this.handleSubmit}>
           <Seperator color="primary" title="Create profile" />
           <InputGroup
@@ -205,6 +192,7 @@ class ProfileForm extends Component {
           <Check
             onChange={this.handleChange}
             value={this.state.isWorking}
+            content="Currently working?"
             name="isWorking"
           />
 

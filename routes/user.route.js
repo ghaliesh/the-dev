@@ -9,7 +9,8 @@ router.post('/register', isValid, async (req, res) => {
   const result = {
     name: user.name,
     email: user.email,
-    token: user.genreateToken()
+    token: user.genreateToken(),
+    id: user._id
   };
   res.header('x-token', result.token).send(result);
 });

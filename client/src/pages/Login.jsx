@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import { loginUser } from '../redux/reducers/auth/auth.action';
 import { connect } from 'react-redux';
 import Div from './../components/Common/Div';
+import { ToastContainer, toast } from 'react-toastify';
 
 class Login extends Component {
   state = {
@@ -20,9 +21,23 @@ class Login extends Component {
     }
   };
   render() {
-    if (this.state.redirect) return <Redirect to="/" />;
+    if (this.state.redirect) {
+      toast.success('Welcome back!');
+      return <Redirect to="/" />;
+    }
     return (
       <Div padding="100px 100px">
+        <ToastContainer
+          position="bottom-left"
+          autoClose={3000}
+          hideProgressBar={true}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnVisibilityChange
+          draggable
+          pauseOnHover
+        />
         <H size="20px" color="dark">
           Enter your name and password
         </H>

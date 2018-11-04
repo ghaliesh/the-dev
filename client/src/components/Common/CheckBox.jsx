@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import Label from './Label';
 import React from 'react';
+import Span from './Span';
 
 const CheckBox = styled.input`
   display: none;
@@ -50,7 +51,9 @@ const Check = props => {
         onChange={props.onChange}
         type="checkbox"
       />
-      <span className="myspan">{props.content}</span>
+      <Span className="myspan" color="dark">
+        {props.content}
+      </Span>
     </Label>
   );
 };

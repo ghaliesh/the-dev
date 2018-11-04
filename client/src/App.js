@@ -38,7 +38,7 @@ class App extends Component {
               />
               <Route component={AsyncNotFoundPage} />
             </Switch>
-            <Footer>CopyRight @ 2019</Footer>
+            <Footer>CopyRight @ 2019 </Footer>
           </React.Fragment>
         </Router>
       </ThemeProvider>

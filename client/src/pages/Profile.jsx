@@ -15,13 +15,13 @@ class Profile extends Component {
   }
   render() {
     return (
-      <Div style={displayGrid('1fr', '40px')} padding="100px 0px">
-        <React.Fragment>
-          <Introduction intro={assignProfile(this.props.profile)} />
+      <Div style={displayGrid('1fr', '40px')} padding="50px 0px">
+        <Introduction intro={assignProfile(this.props.profile)} />
+        <Div padding="0px 100px">
           <Projects handle={this.props.profile.githubHandle} />
           <Experiences experience={this.props.profile.experiences} />
           <Education education={this.props.profile.education} />
-        </React.Fragment>
+        </Div>
       </Div>
     );
   }

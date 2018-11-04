@@ -3,20 +3,14 @@ import Div from './../Common/Div';
 import Image from './../Common/Image';
 import H from './../Common/H';
 import Paragraph from './../Common/Paragraph';
-import Span from './../Common/Span';
 import Social from './Social';
 import Icon from './../Common/Icon';
 
 const Introduction = props => {
   return (
-    <Div center="hor" background="#0d2e63" padding="10px">
-      <Image circle alt="image" src="https://via.placeholder.com/100x100" />
-      <H>
-        name -{' '}
-        <Span color="danger" size="1rem">
-          {props.intro.location}
-        </Span>
-      </H>
+    <Div center="hor" background="primary" padding="10px">
+      <Image circle alt="image" src={props.intro.avatar} />
+      <H>{props.intro.name}</H>
       <Paragraph color="light">{props.intro.bio}</Paragraph>
       <Social link={props.intro.social} />
       <Paragraph color="#019934">

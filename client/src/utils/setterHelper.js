@@ -30,7 +30,9 @@ const assignState = state => {
 const assignProfile = data => {
   const profile = {
     username: data.username,
+    name: data.name,
     skills: data.skills,
+    avatar: data.avatar,
     location: data.location,
     bio: data.bio,
     isWorking: data.isWorking,

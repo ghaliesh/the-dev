@@ -29,7 +29,6 @@ const addUser = async user => {
 
 const getUser = async id => {
   const user = await User.findById(id);
-  console.log(user);
   return user;
 };
 
