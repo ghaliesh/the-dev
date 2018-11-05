@@ -40,6 +40,7 @@ const Profile = mongoose.model('Profile', schema);
 const AddProfile = async (model, userId) => {
   let profile = new Profile(model);
   profile.skills = model.skills.split(',').map(s => s.trim());
+  profile.user = userId;
   await profile.save();
   return profile;
 };
@@ -72,6 +73,7 @@ const getAll = async _ => {
   const profiles = await Profile.find();
   let promises = await profiles.map(async p => {
     const user = await getUser(p.user);
+    console.log(user);
     return { profile: p, userInfo: user };
   });
   const results = await Promise.all(promises);

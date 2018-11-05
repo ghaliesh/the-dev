@@ -33,6 +33,7 @@ router.get('/getByhandle/:handle', async (req, res) => {
   if (!profile) {
     res.status(400).send('Not found');
   }
+  console.log({ profile, user: targetUser });
   res.send({ profile, user: targetUser });
 });
 
@@ -60,6 +61,7 @@ router.post('/add', isAuthenticated, isValid, async (req, res) => {
   const userId = req.user._id;
   let result = await AddProfile(req.body, userId);
   const targetUser = await getUser(userId);
+  console.log({ profile: result, user: targetUser });
   res.send({ profile: result, user: targetUser });
 });
 
