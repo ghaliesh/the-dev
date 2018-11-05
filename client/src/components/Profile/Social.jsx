@@ -2,14 +2,16 @@ import React from 'react';
 import Icon from './../Common/Icon';
 import Anchor from './../Common/Anchor';
 import Div from './../Common/Div';
+import PropType from 'prop-types';
 
 const Social = props => {
+  const { youtube, facebook, github, twitter, insta } = props.link;
   return (
     <Div>
-      <Anchor link={props.link.youtube} color="light">
+      <Anchor link={youtube} color="light">
         <Icon clickable size="1.3rem" color="red" className="fab fa-youtube" />
       </Anchor>
-      <Anchor link={props.link.facebook} color="light">
+      <Anchor link={facebook} color="light">
         <Icon
           clickable
           margin="0px 10px"
@@ -18,7 +20,7 @@ const Social = props => {
           className="fab fa-facebook"
         />
       </Anchor>
-      <Anchor link={props.link.insta} color="light">
+      <Anchor link={insta} color="light">
         <Icon
           clickable
           margin="0px 10px"
@@ -28,10 +30,10 @@ const Social = props => {
         />
       </Anchor>
 
-      <Anchor link={props.link.github} color="light">
+      <Anchor link={github} color="light">
         <Icon clickable size="1.3rem" color="light" className="fab fa-github" />
       </Anchor>
-      <Anchor link={props.link.twitter} color="light">
+      <Anchor link={twitter} color="light">
         <Icon
           clickable
           margin="0px 10px"
@@ -42,5 +44,19 @@ const Social = props => {
       </Anchor>
     </Div>
   );
+};
+
+Social.prototype = {
+  link: PropType.object
+};
+
+Social.defaultProps = {
+  link: {
+    youtube: '',
+    insta: '',
+    twitter: '',
+    facebook: '',
+    github: ''
+  }
 };
 export default Social;

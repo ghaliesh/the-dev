@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import PropType from 'prop-types';
 import React from 'react';
+import styled from 'styled-components';
 
 const ATAG = styled.a`
   text-decoration: none;

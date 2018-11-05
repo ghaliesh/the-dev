@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
 import Span from './Span';
-import formatNumber from '../../utils/formater';
 import Icon from './Icon';
 
 const TableHead = styled.th`
@@ -60,7 +59,7 @@ const Table = props => {
               {e.license ? e.license.name : <Span color="dark">None</Span>}
             </TableData>
             <TableData>
-              {e.watchers ? formatNumber(e.watchers.toString()) : '0'}{' '}
+              {e.watchers ? e.watchers.toString() : '0'}{' '}
               <Icon color="gold" className="fas fa-star" />
             </TableData>
             <TableData>

@@ -16,7 +16,6 @@ const getCurrentProfile = () => async dispatch => {
 const userProfile = handle => async dispatch => {
   if (handle) {
     const res = await axios.get('/api/profiles/getByhandle/q?handle=' + handle);
-    console.log({ ...res.data.profile, ...res.data.user });
     dispatch({
       type: GET_PROFILE,
       payload: { ...res.data.profile, ...res.data.user }
@@ -28,7 +27,6 @@ const userProfile = handle => async dispatch => {
 
 const getProfiles = () => async dispatch => {
   const res = await axios.get('/api/profiles');
-  console.log(res.data);
   dispatch({
     type: GET_PROFILES,
     payload: res.data

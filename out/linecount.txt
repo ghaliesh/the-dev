@@ -267,3 +267,108 @@ routes\articles.route.js, code is 42, comment is 0, blank is 7.
 routes\profile.route.js, code is 48, comment is 0, blank is 8.
 routes\user.route.js, code is 31, comment is 0, blank is 5.
 ===============================================================================
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2018-11-05 03:22:32
+count workspace : c:\Users\Ghazwan Al-iesh\VSC\Side Projects\nodejs\the_dev
+total files : 93
+total code lines : 33011
+total comment lines : 554
+total blank lines : 566
+
+.gitignore, code is 17, comment is 1, blank is 5.
+client\package-lock.json, code is 15438, comment is 0, blank is 0.
+client\package.json, code is 39, comment is 0, blank is 1.
+client\package.json.1385886177, code is 35, comment is 0, blank is 1.
+client\public\favicon.ico, it is a binary file.
+client\public\index.html, code is 27, comment is 22, blank is 4.
+client\public\manifest.json, code is 15, comment is 0, blank is 0.
+client\README.md, code is 510, comment is 490, blank is 222.
+client\src\.eslintrc.js, code is 5, comment is 0, blank is 0.
+client\src\App.css, code is 126, comment is 1, blank is 16.
+client\src\App.js, code is 103, comment is 0, blank is 6.
+client\src\App.test.js, code is 8, comment is 0, blank is 1.
+client\src\components\Animation\Spinner.jsx, code is 24, comment is 0, blank is 7.
+client\src\components\Common\404.jsx, code is 72, comment is 0, blank is 3.
+client\src\components\Common\Anchor.jsx, code is 23, comment is 0, blank is 5.
+client\src\components\Common\Button.jsx, code is 89, comment is 0, blank is 10.
+client\src\components\Common\CheckBox.jsx, code is 56, comment is 0, blank is 5.
+client\src\components\Common\Div.jsx, code is 42, comment is 0, blank is 3.
+client\src\components\Common\ErrorMessage.jsx, code is 8, comment is 0, blank is 2.
+client\src\components\Common\H.jsx, code is 30, comment is 0, blank is 5.
+client\src\components\Common\Icon.jsx, code is 18, comment is 0, blank is 4.
+client\src\components\Common\Image.jsx, code is 8, comment is 0, blank is 1.
+client\src\components\Common\Input.jsx, code is 24, comment is 0, blank is 3.
+client\src\components\Common\InputGroup.jsx, code is 63, comment is 0, blank is 4.
+client\src\components\Common\Item.jsx, code is 9, comment is 0, blank is 2.
+client\src\components\Common\Label.jsx, code is 7, comment is 0, blank is 2.
+client\src\components\Common\List.jsx, code is 7, comment is 0, blank is 2.
+client\src\components\Common\Paragraph.jsx, code is 12, comment is 0, blank is 2.
+client\src\components\Common\Select.jsx, code is 76, comment is 0, blank is 9.
+client\src\components\Common\Seperator.jsx, code is 32, comment is 0, blank is 5.
+client\src\components\Common\Span.jsx, code is 12, comment is 0, blank is 2.
+client\src\components\Common\Table.jsx, code is 73, comment is 0, blank is 6.
+client\src\components\Common\TextArea.jsx, code is 15, comment is 0, blank is 4.
+client\src\components\FAQ\Answer.jsx, code is 17, comment is 0, blank is 2.
+client\src\components\FAQ\Question.jsx, code is 17, comment is 0, blank is 2.
+client\src\components\Footer\Footer.jsx, code is 12, comment is 0, blank is 2.
+client\src\components\Loader\Spinner.jsx, code is 37, comment is 0, blank is 5.
+client\src\components\NavBar\NavBar.jsx, code is 108, comment is 0, blank is 7.
+client\src\components\NotFound\NotFoundPage.jsx, code is 10, comment is 0, blank is 2.
+client\src\components\Profile\Education.jsx, code is 16, comment is 0, blank is 2.
+client\src\components\Profile\Experiences.jsx, code is 28, comment is 0, blank is 2.
+client\src\components\Profile\Introduction.jsx, code is 23, comment is 0, blank is 2.
+client\src\components\Profile\Projects.jsx, code is 25, comment is 1, blank is 2.
+client\src\components\Profile\Social.jsx, code is 58, comment is 0, blank is 4.
+client\src\components\ProfileList\ProfileItem.jsx, code is 49, comment is 0, blank is 2.
+client\src\helpers\skilss.helpers.js, code is 40, comment is 0, blank is 2.
+client\src\helpers\style.helper.js, code is 32, comment is 0, blank is 2.
+client\src\helpers\themes.js, code is 30, comment is 0, blank is 1.
+client\src\index.css, code is 8, comment is 0, blank is 0.
+client\src\index.js, code is 14, comment is 0, blank is 1.
+client\src\logo.svg, code is 7, comment is 0, blank is 0.
+client\src\pages\About.jsx, code is 48, comment is 0, blank is 2.
+client\src\pages\Hire.jsx, code is 132, comment is 0, blank is 11.
+client\src\pages\LandingPage.jsx, code is 12, comment is 0, blank is 1.
+client\src\pages\Login.jsx, code is 109, comment is 0, blank is 6.
+client\src\pages\Profile.jsx, code is 35, comment is 0, blank is 2.
+client\src\pages\ProfileForm.jsx, code is 225, comment is 1, blank is 13.
+client\src\pages\ProfileList.jsx, code is 36, comment is 0, blank is 5.
+client\src\pages\Register.jsx, code is 125, comment is 0, blank is 4.
+client\src\redux\index.js, code is 9, comment is 0, blank is 1.
+client\src\redux\reducers\auth\auth.action.js, code is 21, comment is 0, blank is 5.
+client\src\redux\reducers\auth\auth.reducer.js, code is 19, comment is 0, blank is 3.
+client\src\redux\reducers\profile\profile.action.js, code is 52, comment is 0, blank is 6.
+client\src\redux\reducers\profile\profile.reducer.js, code is 28, comment is 0, blank is 2.
+client\src\redux\reducers\theme\theme.action.js, code is 12, comment is 0, blank is 3.
+client\src\redux\reducers\theme\theme.reducer.js, code is 20, comment is 0, blank is 1.
+client\src\redux\store.js, code is 20, comment is 0, blank is 4.
+client\src\redux\types.js, code is 22, comment is 0, blank is 1.
+client\src\serviceWorker.js, code is 83, comment is 30, blank is 14.
+client\src\static\img\landing-bg.jpg, it is a binary file.
+client\src\static\logos\thedev_logo.svg, code is 12045, comment is 0, blank is 0.
+client\src\utils\Faqhelper.js, code is 23, comment is 0, blank is 7.
+client\src\utils\formater.js, code is 29, comment is 0, blank is 2.
+client\src\utils\localstorage.js, code is 47, comment is 0, blank is 5.
+client\src\utils\progmaticStyling.js, code is 7, comment is 0, blank is 0.
+client\src\utils\setterHelper.js, code is 42, comment is 0, blank is 1.
+client\src\utils\validateHelper.js, code is 52, comment is 0, blank is 4.
+config\custom-environment-variables.json, code is 3, comment is 0, blank is 0.
+config\default.json, code is 3, comment is 0, blank is 0.
+config\Production.json, code is 3, comment is 0, blank is 0.
+index.js, code is 28, comment is 1, blank is 3.
+middlewares\articles.middleware.js, code is 21, comment is 0, blank is 3.
+middlewares\profile-middleware.js, code is 39, comment is 0, blank is 2.
+middlewares\user-middlewares.js, code is 91, comment is 0, blank is 8.
+models\articles.model.js, code is 57, comment is 0, blank is 10.
+models\profile.model.js, code is 79, comment is 0, blank is 9.
+models\user.model.js, code is 47, comment is 0, blank is 8.
+package-lock.json, code is 1626, comment is 0, blank is 0.
+package.json, code is 35, comment is 0, blank is 0.
+README.MD, code is 38, comment is 7, blank is 17.
+routes\articles.route.js, code is 42, comment is 0, blank is 7.
+routes\profile.route.js, code is 63, comment is 0, blank is 10.
+routes\user.route.js, code is 29, comment is 0, blank is 4.
+===============================================================================

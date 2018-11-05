@@ -14,13 +14,14 @@ class Profile extends Component {
     await this.props.userProfile(this.props.match.params.handle);
   }
   render() {
+    const { githubHandle, experiences, education } = this.props.profile;
     return (
       <Div style={displayGrid('1fr', '40px')} padding="50px 0px">
         <Introduction intro={assignProfile(this.props.profile)} />
-        <Div padding="0px 100px">
-          <Projects handle={this.props.profile.githubHandle} />
-          <Experiences experience={this.props.profile.experiences} />
-          <Education education={this.props.profile.education} />
+        <Div padding="0px 100px" style={displayGrid('1fr', '50px')}>
+          <Projects handle={githubHandle} />
+          <Experiences experience={experiences} />
+          <Education education={education} />
         </Div>
       </Div>
     );

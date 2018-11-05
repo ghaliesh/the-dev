@@ -1374,6 +1374,576 @@
                     "filename": "routes\\user.route.js"
                 }
             ]
+        },
+        {
+            "version": "0.1.7",
+            "counttime": "2018-11-05 03:22:32",
+            "filesum": 93,
+            "codesum": 33011,
+            "commentsum": 554,
+            "blanksum": 566,
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 1,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 15438,
+                    "comment": 0,
+                    "filename": "client\\package-lock.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "client\\package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "client\\package.json.1385886177"
+                },
+                {
+                    "filename": "client\\public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 22,
+                    "filename": "client\\public\\index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "client\\public\\manifest.json"
+                },
+                {
+                    "blank": 222,
+                    "code": 510,
+                    "comment": 490,
+                    "filename": "client\\README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "client\\src\\.eslintrc.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 126,
+                    "comment": 1,
+                    "filename": "client\\src\\App.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 103,
+                    "comment": 0,
+                    "filename": "client\\src\\App.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\App.test.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Animation\\Spinner.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\404.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Anchor.jsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Button.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\CheckBox.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Div.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\ErrorMessage.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\H.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Icon.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Image.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Input.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\InputGroup.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Item.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Label.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\List.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Paragraph.jsx"
+                },
+                {
+                    "blank": 9,
+                    "code": 76,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Select.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Seperator.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Span.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\Table.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Common\\TextArea.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\FAQ\\Answer.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\FAQ\\Question.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Footer\\Footer.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Loader\\Spinner.jsx"
+                },
+                {
+                    "blank": 7,
+                    "code": 108,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\NavBar\\NavBar.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\NotFound\\NotFoundPage.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Education.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Experiences.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Introduction.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "client\\src\\components\\Profile\\Projects.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\Profile\\Social.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "client\\src\\components\\ProfileList\\ProfileItem.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "client\\src\\helpers\\skilss.helpers.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "client\\src\\helpers\\style.helper.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "client\\src\\helpers\\themes.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "client\\src\\index.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "client\\src\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\logo.svg"
+                },
+                {
+                    "blank": 2,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\About.jsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 132,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Hire.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\LandingPage.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 109,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Login.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Profile.jsx"
+                },
+                {
+                    "blank": 13,
+                    "code": 225,
+                    "comment": 1,
+                    "filename": "client\\src\\pages\\ProfileForm.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\ProfileList.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 125,
+                    "comment": 0,
+                    "filename": "client\\src\\pages\\Register.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\auth\\auth.action.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\auth\\auth.reducer.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\profile\\profile.action.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\profile\\profile.reducer.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\theme\\theme.action.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\reducers\\theme\\theme.reducer.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\store.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "client\\src\\redux\\types.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 83,
+                    "comment": 30,
+                    "filename": "client\\src\\serviceWorker.js"
+                },
+                {
+                    "filename": "client\\src\\static\\img\\landing-bg.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 12045,
+                    "comment": 0,
+                    "filename": "client\\src\\static\\logos\\thedev_logo.svg"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\Faqhelper.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\formater.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\localstorage.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\progmaticStyling.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\setterHelper.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "client\\src\\utils\\validateHelper.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\custom-environment-variables.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\default.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "config\\Production.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 1,
+                    "filename": "index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "middlewares\\articles.middleware.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "middlewares\\profile-middleware.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "middlewares\\user-middlewares.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "models\\articles.model.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "models\\profile.model.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "models\\user.model.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1626,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 17,
+                    "code": 38,
+                    "comment": 7,
+                    "filename": "README.MD"
+                },
+                {
+                    "blank": 7,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "routes\\articles.route.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "routes\\profile.route.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "routes\\user.route.js"
+                }
+            ]
         }
     ]
 }

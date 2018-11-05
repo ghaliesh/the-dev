@@ -7,15 +7,16 @@ import Social from './Social';
 import Icon from './../Common/Icon';
 
 const Introduction = props => {
+  const { avatar, name, social, isWorking, bio } = props.intro;
   return (
     <Div center="hor" background="primary" padding="10px">
-      <Image circle alt="image" src={props.intro.avatar} />
-      <H>{props.intro.name}</H>
-      <Paragraph color="light">{props.intro.bio}</Paragraph>
-      <Social link={props.intro.social} />
+      <Image circle alt="image" src={avatar} />
+      <H>{name}</H>
+      <Paragraph color="light">{bio}</Paragraph>
+      <Social link={social} />
       <Paragraph color="#019934">
         <Icon className="fa fa-check" />
-        {props.intro.isWorking ? 'Currently working' : 'Available for work'}
+        {isWorking ? 'Currently working' : 'Available for work'}
       </Paragraph>
     </Div>
   );

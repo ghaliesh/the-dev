@@ -73,7 +73,6 @@ const getAll = async _ => {
   const profiles = await Profile.find();
   let promises = await profiles.map(async p => {
     const user = await getUser(p.user);
-    console.log(user);
     return { profile: p, userInfo: user };
   });
   const results = await Promise.all(promises);
