@@ -39,17 +39,22 @@ const Profile = mongoose.model('Profile', schema);
 
 const AddProfile = async (model, userId) => {
   let profile = new Profile(model);
-  profile.skills = model.skills.split(',').map(s => s.trim());
+  profile.skills = model.skills.split(',').map(s => s.trim().toLowerCase());
   profile.user = userId;
   await profile.save();
   return profile;
 };
 
 const getProfileBySkill = async (skills, mode) => {
-  let profile;
-  if (mode == 'or') profile = await Profile.find({ skills: { $in: skills } });
-  else profile = await Profile.find({ skills: { $all: skills } });
-  return profile;
+  let profiles;
+  if (mode == 'or') profiles = await Profile.find({ skills: { $in: skills } });
+  else profiles = await Profile.find({ skills: { $all: skills } });
+  let promises = await profiles.map(async p => {
+    const user = await getUser(p.user);
+    return { profile: p, userInfo: user };
+  });
+  const results = await Promise.all(promises);
+  return results;
 };
 
 const getUserProfile = async id => {
@@ -58,7 +63,6 @@ const getUserProfile = async id => {
 };
 
 const deleteProfile = async userId => {
-  const user = userId;
   const profile = await Profile.findOne({ user: userId });
   const result = await profile.remove();
   return result;

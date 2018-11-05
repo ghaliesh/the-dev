@@ -20,7 +20,7 @@ class NavBar extends Component {
   render() {
     const { user } = this.props;
     return (
-      <Div position="fixed" height="100px" width="100%">
+      <Div position="fixed" style={{ zIndex: 1 }} height="100px" width="100%">
         <Div className="nav" padding="0px 100px" background="secondary">
           <Div className="nav-header">
             <Div className="nav-title">

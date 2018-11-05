@@ -37,12 +37,14 @@ router.get('/getByhandle/:handle', async (req, res) => {
 
 router.get('/getBySkill/:skill', async (req, res) => {
   const profile = await getProfileBySkill(
-    req.query.skill.split(','),
+    req.query.skill.toLowerCase().split(','),
     req.query.mode
   );
   if (!profile) {
     res.status(400).send('Not found');
   }
+  console.log(profile);
+
   res.status(200).send(profile);
 });
 
