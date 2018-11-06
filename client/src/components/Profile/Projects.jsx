@@ -24,7 +24,7 @@ export default class Projects extends Component {
         {this.state.repos.length > 0 ? (
           <Table experience={this.state.repos} />
         ) : (
-          <H color="dark">Didn't found any repos</H>
+          <H color="dark">Didn't find any repos</H>
         )}
       </Div>
     );
